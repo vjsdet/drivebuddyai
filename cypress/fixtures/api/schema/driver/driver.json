@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "licenseNumber": {
+          "type": "string"
+        },
+        "licenseExpiryDate": {},
+        "profileAvatar": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "email": {},
+        "status": {
+          "type": "string"
+        },
+        "address": {},
+        "description": {},
+        "countryCode": {
+          "type": "string"
+        },
+        "onboardSource": {
+          "type": "string"
+        },
+        "onboardEventId": {
+          "type": "string"
+        },
+        "documents": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "firstName",
+        "lastName",
+        "licenseNumber",
+        "licenseExpiryDate",
+        "profileAvatar",
+        "createdAt",
+        "updatedAt",
+        "phone",
+        "email",
+        "status",
+        "address",
+        "description",
+        "countryCode",
+        "onboardSource",
+        "documents"
+      ]
+    }
+  }
